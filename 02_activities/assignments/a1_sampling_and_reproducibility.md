@@ -10,10 +10,20 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Noha ElGarem
 
 ```
-Please write your explanation here...
+Please write your explanation here... 
+
+A random subset of people is chosen to be infected. The function used is np.random.choice. The number of infected people is 10% of the total number of people, which is 100 people. Then sampling occurs at the primary contact tracing stage, where a random subset of infected people are chosen to be traced. The function used is numpy.random.rand and each infected person has a 20% chance to be traced. The sample size here is approximately 20 people and the sampling frame is all infected people. As was discussed in the blog post, after infected people are initially traced, all people who attended the same event with a traced infected person are then traced as well for the secondary contact tracing stage.
+
+Does this code appear to reproduce the graphs from the original blog post? 
+The code appears to reproduce the graph from the blog post for the true proportion of infections resulting from weddings. It does not seem to reproduce the results for the observed (or traced) proportion which had a higher proportion mean in the blog post as opposed to being quite close to the true distribution for this code.
+
+Comment on the reproducibility of the results.
+The results of the code are not reproducible.
+
+To ensure the reproducibility of the code, I added a random seed right after importing the necessary libraries. After that, the results were always the same (i.e. reproducible). 
 
 ```
 
