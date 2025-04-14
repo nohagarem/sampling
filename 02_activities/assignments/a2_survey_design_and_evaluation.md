@@ -40,30 +40,40 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `3`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to explore the relationship between music taste and age, particularly, how people percieve popular music at different stages in their life. The findings of the survey will be used to assess whether music preferences change significantly with age or remain consistent.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: People who are at least 16 years old and are living in Canada,  with an emphasis on a diverse range of ages.
+Sampling frame: University students, alumni, and community members who have agreed to participate in a university-affiliated research study.
+Sampling units: The individuals who reply to the survey.
+Sampling strategy: stratified random sampling, with the strata defined by age groups, this is to ensure proportional representation across all age groups.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your birth year?
+2. Where do you currently live (city/province)?
+3. Arrange the following genres of music according to your preference (1 being your favorite)
+    pop - rock - indie/alternative - jazz - heavy metal - classical - country - hip hop - rap - electronic - other...
+4. How often to do you listen to popular music (e.g. Top 40 Chart)?
+    daily - a few times a week - once a week - a few times a month - occassionally - rarely - never
+5. How would you describe your attitude towards popular music?
+    positive - somewhat positive - neutral - somewhat negative - negative 
+6. What was your favorite genre of music when you were a teenager (if you are a teenager, answer with your current preference)?
+    pop - rock - indie/alternative - jazz - heavy metal - classical - country - hip hop - rap - electronic - other...
+7. What was your favorite genre of music when you were in your 30's (if your age is less than 40, answer with your current preference)?
+    pop - rock - indie/alternative - jazz - heavy metal - classical - country - hip hop - rap - electronic - other...
+8. Do you feel that your music preferences have changed over time?
+    yes - somewhat - not really
+9. What factors do you feel have influenced any change in your music preferences?
+    age - social circles - cultural trends - life experiences - media/technology - other...
+10. Please share any personal reflections on how your music preferences have changed over time?
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +81,39 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: the survey employed a stratified probability sample with 2 stages. In the first stage, the sampling units are telephone numbers linked to addresses. In the second stage, the sampling units are individuals that are 15 years or older within the identified households. The stratification is done at the province/census metropolitan area (CMA) level. An approach called 'rejective sampling' was chosen as part of the sample design. After a respondent is classified as a volunteer or not, sub-sampling is carried out for selected respondents who are not volunteers. All respondents who are volunteers do a long interview. Those who are NOT volunteers are randomly divided into two groups. One group does a long interview, while the other group does a short interview.
+
+2. Sample size: A field sample of approximatively 50,000 units was used. Among them, about 40,000 invitation letters to the electronic questionnaire were sent to selected households across Canada. A completion of 24,000 questionnaires was expected.
+
+3. Target population: all persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+
+4. Sampling frame:  landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address.
+
+5. Survey mode(s): Data was collected directly from survey respondents either through an electronic questionnaire or through CATI (computer assisted telephone interviewing).
+
+6. Timeline: Data collection for this reference period: 2018-09-04 to 2018-12-28
+
+7. Response rate: 41.9%
+
+8. Weights: The dataset includes person weights (WGHT_PER). This is the basic weighting factor for analysis at the person level, i.e. to calculate estimates of the number of persons (non-institutionalized and aged 15 or over) having one or several given characteristics.
+In addition to the estimation weights, bootstrap weights were created for the purpose of design-based variance estimation. Estimates based on the survey data are also adjusted (by weighting) so that they are representative of the target population with regard to certain characteristics (such as age, gender and province). 
+
+9. Data processing: Open ended responses were categorized. Edits were performed automatically and manually at various stages of processing at macro and micro levels. They included family, consistency and flow edits. And weighting was applied to ensure the sample was representative of the target population.
+
+10. Cleaning, imputation, etc: Imputation was carried out in nine steps. The first step consisted of imputing personal income and family income. The next three steps involved imputing the formal volunteering variables in the master file. Steps five and six were imputing the informal volunteering variables in the master file. Finally, the last three steps involved imputing variables in the donation file and the solicitation methods in the master file.
+
+11. Sources of error:
+    - sampling error: due to the use of a sample and not a census.
+    - non sampling error: due to imperfect coverage, non-response, response errors and possible processing errors. 
+
+12. Limitations, known biases, etc:
+    - Households without telephones were excluded from the survey population.
+    - Non-reponse bias.
+    - Differences between CATI reposnses and responses to the online questionnaire may introduce bias.
+    - The introduction of the online questionnaire may affect comparability with previous cycles.
+
+13. Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+
 ```
 
 ## Rubric
