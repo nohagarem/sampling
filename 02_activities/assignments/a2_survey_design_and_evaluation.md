@@ -58,22 +58,22 @@ Sampling strategy: stratified random sampling, with the strata defined by age gr
 Your 5-10 question survey:
 ```
 1. What is your birth year?
-2. Where do you currently live (city/province)?
-3. Arrange the following genres of music according to your preference (1 being your favorite)
+2. What is your gender?
+3. Where do you currently live (city/province)?
+4. Where did you live in your teenage years (city/province/country)? 
+5. Rank the following genres of music according to your preference. The rank 1 should be given to your favorite genre. You may leave genres unranked if you do not like them at all.
     pop - rock - indie/alternative - jazz - heavy metal - classical - country - hip hop - rap - electronic - other...
-4. How often to do you listen to popular music (e.g. Top 40 Chart)?
+6. How often to do you listen to popular music (e.g. Top 40 Chart)?
     daily - a few times a week - once a week - a few times a month - occassionally - rarely - never
-5. How would you describe your attitude towards popular music?
+7. How would you describe your attitude towards popular music?
     positive - somewhat positive - neutral - somewhat negative - negative 
-6. What was your favorite genre of music when you were a teenager (if you are a teenager, answer with your current preference)?
+8. What was your favorite genre of music when you were a teenager (if you are a teenager, answer with your current preference)?
     pop - rock - indie/alternative - jazz - heavy metal - classical - country - hip hop - rap - electronic - other...
-7. What was your favorite genre of music when you were in your 30's (if your age is less than 40, answer with your current preference)?
+9. What was your favorite genre of music when you were in your 30's (if your age is less than 40, answer with your current preference)?
     pop - rock - indie/alternative - jazz - heavy metal - classical - country - hip hop - rap - electronic - other...
-8. Do you feel that your music preferences have changed over time?
-    yes - somewhat - not really
-9. What factors do you feel have influenced any change in your music preferences?
+10. What factors do you feel have influenced any change in your music preferences?
     age - social circles - cultural trends - life experiences - media/technology - other...
-10. Please share any personal reflections on how your music preferences have changed over time?
+
 ```
 
 ## Part B - Survey Evaluation:
